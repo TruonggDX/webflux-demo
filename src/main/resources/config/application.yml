@@ -1,0 +1,13 @@
+spring:
+  r2dbc:
+    url: r2dbc:pool:mysql://localhost:3307/webflux_demo?sslMode=disabled
+    username: root
+    password: 28042003
+  application:
+    name: WebFluxDemo
+logging:
+  level:
+    org.flywaydb: DEBUG
+    io.asyncer.r2dbc.mysql: DEBUG
+    reactor.netty: DEBUG
+    org.springframework.r2dbc: DEBUG
