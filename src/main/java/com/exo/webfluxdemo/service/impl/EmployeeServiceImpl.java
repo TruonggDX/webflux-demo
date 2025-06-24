@@ -23,7 +23,6 @@ public class EmployeeServiceImpl implements EmployeeService {
   private final EmployeeRepository employeeRepository;
   private final PositionRepository positionRepository;
   private final EmployeeMapper employeeMapper;
-  private final PositionMapper positionMapper;
 
   @Override
   public Flux<EmployeeDto> getAllEmployees() {

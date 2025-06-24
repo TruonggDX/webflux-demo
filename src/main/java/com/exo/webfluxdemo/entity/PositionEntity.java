@@ -18,4 +18,5 @@ public class PositionEntity {
   private Long id;
   private String code;
   private String name;
+  private Boolean active = false;
 }

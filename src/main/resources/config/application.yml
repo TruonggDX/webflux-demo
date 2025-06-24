@@ -5,6 +5,12 @@ spring:
     password: 28042003
   application:
     name: WebFluxDemo
+  threads:
+    virtual:
+      enabled: false
+reactor:
+  netty:
+    ioWorkerCount: 4
 logging:
   level:
     org.flywaydb: DEBUG
